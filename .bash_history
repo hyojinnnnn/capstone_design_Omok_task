@@ -1,40 +1,3 @@
-cd c
-cd ..
-ls
-cd mnt
-ls
-cd c
-ls
-cd MinGW
-ls
-cd bin
-ls
-cd cd /
-cd /../
-ls
-cd mnt
-ls
-cd c
-ls
-cd Users
-ls
-cd hyojin
-ls
-cd Desktop
-ls
-cd os
-ls
-cd xv6-public
-ls
-make qemu-nox
-qemu-img create /tmp/base 100M -f qcow2
-/usr/libexec/qemu-kvm /tmp/base
-/usr/bin/qemu-img create -f qcow2 -o compat=1.1 -b /tmp/base -F qcow2 /tmp/top
-/usr/libexec/qemu-kvm /var/lib/libvirt/images/data/img
-qemu-img create -f qcow2 test.qcow2 10M
-make qemu-nox
-git checkout vm
-make qemu-nox-gdb
 make qemu-nox
 cd ../../mnt/c/Users/hyojin/Desktop/os/xv6-public
 make qemu-nox
@@ -1998,3 +1961,40 @@ vi boot/Main.c
 make run
 vi boot/Main.c
 make run
+git init
+git status
+tree
+rm 1
+tree
+git add .
+git statuc
+git status
+git push
+git remote add origin https://github.com/hyojinnnnn/capstone_design_Omok_task.git
+git remote -v
+git push origin master
+git push origin
+
+git push origin main
+git branch -m master main
+git commit -m "about task0"
+git push
+git branch -m master main
+git push
+git push --set-upstream origin main
+ls
+git clone https://github.com/hyojinnnnn/capstone_design_Omok_task.git
+cd /capstone_design_Omok_task
+cd capstone_design_Omok_task
+ls
+git add Makefile
+cd ..
+ls
+cd capstone_design_Omok_task
+git status
+la -a
+ls -a
+git push -u origin main
+cd ..
+git remote set-url origin https://github.com/hyojinnnnn/capstone_design_Omok_task.git
+git status
